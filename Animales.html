@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Tesis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="./style1.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Fondo 1 -->
+    <div>
+        <img src="./Fondo/FondoW_1.jpg" alt="Páramo" id="Fondo1">
+        <div id="wrapper">
+
+            <!-- BANNER -->
+
+            <div id="banner-wrapper">
+                <header>
+                    <!-- Icóno -->
+                    <div class="header-inner">
+                        <a href="Index.html" id="logo">
+                            <img src="./Loguitoo.png" alt="Logo De Presentación">
+                        </a>
+                        <!-- Barra de navegación -->
+                        <nav>
+                            <a href="#" id="menu-icon">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <ul>
+                                <li> <a href="./index.html" class="current">Inicio</a> </li>
+                                <li> <a href="#">Animales</a>
+
+                                </li>
+                                <li> <a href="./videojuego.html">Videojuego</a> </li>
+                                <li> <a href="./sobrenosotros.html">Sobre Nosotros</a> </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </header>
+
+            </div>
+            <!-- Texto introductorio -->
+            <div id="texto">
+                <h1>En este apartado vas a poder encontrar</h1>
+                <h1>las historias de cada uno de los animales. </h1>
+            </div>
+            <div id="texto1">
+                <h1>Para concoer la historia de cada animal</h1>
+                <h1>Da click sobre su foto</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Segunda parte del fondo -->
+    <div id="Animales tierra">
+        <!-- fondo 2 -->
+        <img src="./Fondo/FondoW_2.jpg" alt="arbol" id="Fondo2">
+        <!-- Overlay Lagartija de Hojarazca -->
+        <div class="modal-santiago no-mostrar" id="modalSantiago">
+            <button class="btn-cerrar-modal" onclick="cerrarModales()">X</button>
+            <div class="modal-contenido">
+                <div class="fila-modal">
+                    <div class="columna-imagen"
+                        style="background:url(./Animales/Lagartija2.png);background-size:cover;">
+
+                    </div>
+                    <div class="columna-texto">
+                        Lagartija de Hojarasca: Ella es Holga, la hermosa lagartija de hojarasca, tiene una vida
+                        pacífica en los bosques del departamento de Antioquia, o eso creía, hasta que un día, en una
+                        de sus caminatas diarias a lo largo del bosque, se percata que la mitad de el bosque está
+                        destruida, hay máquinas por todo el sitio que cavan túneles profundos en busca de minerales,
+                        decide tomar camino de vuelta a casa con la esperanza de que no lleguen hasta su lugar de
+                        hábitat. Un día, en busca de su alimento matutino, alcanza a visualizar que las máquinas
+                        están cada vez más cerca y que la mayoría de insectos que consumen han abandonado el lugar.
+                        Sin alimento y con la amenaza constante de que lleguen a su lugar de vivienda, decide
+                        abandonar el bosque, en busca de un mejor lugar para vivir.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-santiago no-mostrar" id="overlaySantiago"></div>
+
+        <!-- Boton lagartia de Hojarazca -->
+        <button class="btn btn-success" onclick="mostrarModal('modalSantiago')"><img src="./Animales/Lagartija2.png"
+                alt=""></button>
+
+
+        <!-- Overlay Oso de Anteojos -->
+        <div class="modal-oso no-mostrar" id="modalOso">
+            <button class="btn-cerrar-modal" onclick="cerrarModales()">X</button>
+            <div class="modal-contenido-oso">
+                <div class="fila-modal-oso">
+                    <div class="columna-imagen-oso"
+                        style="background:url(./Animales/Osito2.png);background-size:cover;">
+
+                    </div>
+                    <div class="columna-texto-oso">
+                        Oso de anteojos: Él es Antonio, vive en el páramo Andino. Antonio está bebiendo agua de uno
+                        de los nacimientos de agua, con su hermano. De repente antonio siento unos ruidos entre los
+                        árboles, como de pisadas fuertes, se pone en defensa para proteger a su hermano menor, así
+                        que decide darle la espalda, en ese instante, un cazador le dispara al hermano de antonio
+                        con un dardo tranquilizante, la reacción ante la situación mantiene a antonio en una
+                        posición defensiva, pero al ver a su hermano en el piso, con temor y pánico dentro de él
+                        mismo, pero al mismo tiempo con coraje decide atacar, corre hacia el cazador para poder
+                        proteger a su hermano y ahuyentar al cazador, corren por varios minutos hasta que lo logra,
+                        el cazador se retira entre los árboles, así que decide volver a revisar cómo está su
+                        hermano, cuando vuelve al punto, ve que sólo quedó la marca de caída en la cuál debería
+                        estar su hermano, se lo llevaron, no sabe a dónde, entra en desesperación y empieza a buscar
+                        por todo el páramo, pero ya es tarde, su hermano ya no se encuentra en ese lugar.
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-santiago no-mostrar" id="overlaySantiago"></div>
+
+        <!-- Boton Oso de Anteojos -->
+        <button class="btn1 btn-success" onclick="mostrarModal('modalOso')"><img src="./Animales/Osito2.png"
+                alt=""></button>
+
+    </div>
+
+    <div id="animalesAguaTierra">
+        <!-- Fondo 3 -->
+        <img src="./Fondo/FondoW_3.jpg" alt="tierra" id="Fondo3">
+
+        <!-- Overlay Maya la Mantarraya  -->
+        <div class="modal-oso no-mostrar" id="modalMaya">
+            <button class="btn-cerrar-modal" onclick="cerrarModales()">X</button>
+            <div class="modal-contenido-maya">
+                <div class="fila-modal-maya">
+                    <div class="columna-imagen-maya"
+                        style="background:url(./Animales/Mantarraya2.png);background-size:cover;">
+
+                    </div>
+                    <div class="columna-texto-maya">
+                        Mantarraya: Ella es Maya, Maya vive feliz en las profundidades del océano pacífico. Un día
+                        Maya se encontraba nadando cerca de un terreno pantanoso, decidida a explorar nuevos
+                        horizontes, de la nada se encuentra atrapada, debido a una bolsa de plástico que se atascó
+                        entre sus aletas y su cola, la desesperación pronto comenzó a dominar cada movimiento y
+                        pensamiento que se presentaba ante el peligro en el cúal se sentía, gracias a ello, hizo un
+                        movimiento bastante fuerte que lastimó su aleta, esto ocasionó que no pudiera volver a nadar
+                        nuevamente.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-santiago no-mostrar" id="overlaySantiago"></div>
+
+        <!-- Boton Mantarraya -->
+        <button class="btn3 btn-success" onclick="mostrarModal('modalMaya')"><img src="./Animales/Mantarraya2.png"
+                alt="" width="80%"></button>
+
+        <!-- Overlay Tiki el mono titi -->
+        <div class="modal-oso no-mostrar" id="modalMono">
+            <button class="btn-cerrar-modal" onclick="cerrarModales()">X</button>
+            <div class="modal-contenido-mono">
+                <div class="fila-modal-mono">
+                    <div class="columna-imagen-mono"
+                        style="background:url(./Animales/MonoTiti2.png);background-size:cover;">
+
+                    </div>
+                    <div class="columna-texto-mono">
+                        Mono tití cabeciblanca: El mono tití “Tiki” vive feliz con su hermosa familia en el bosque
+                        Andino, de repente, su felicidad es destruida por la invasión de maquinarias de destrucción
+                        y humanos encargados de la deforestación de los bosques para la construcción de nuevas
+                        ciudades, pero ellos no tienen idea de que sean, a simple vista son amenazantes, uno de
+                        ellos decide investigar, el hermano de tiki, pero desafortunadamente es atrapado por unos de
+                        los humanos, la familia entra en un terror profundo y el pánico se apodera de ellos, deciden
+                        huir, cada uno por su lado, pronto descubren que están solos, alejados completamente de lo
+                        que una vez fue su hogar, destinados a tener una vida en una eterna soledad, tristeza, miedo
+                        y preocupación constante de ser atrapados como le pasó a su familiar.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-santiago no-mostrar" id="overlaySantiago"></div>
+
+        <!-- Boton Mono -->
+        <button class="btn4 btn-success" onclick="mostrarModal('modalMono')"><img src="./Animales/MonoTiti2.png"
+                alt=""></button>
+
+    </div>
+    <!-- Fondo 4 -->
+    <div id="AnimalesAgua">
+        <img src="./Fondo/FondoW_4.jpg" alt="mar" id="Fondo4">
+
+        <!-- Overlay Tiki el mono titi -->
+        <div class="modal-oso no-mostrar" id="modalDelfin">
+            <button class="btn-cerrar-modal" onclick="cerrarModales()">X</button>
+            <div class="modal-contenido-delfin">
+                <div class="fila-modal-delfin">
+                    <div class="columna-imagen-delfin"
+                        style="background:url(./Animales/DelfinesR2.png);background-size:cover;">
+
+                    </div>
+                    <div class="columna-texto-delfin">
+                        Delfin Rosado: Él es Manu, el delfin rosado. Un día, Manu decide salir con sus amigos a nadar a
+                        lo largo del río Amazonas, lo más lejos posible y comer pirañas. Entre nado y nado, se
+                        encuentran con un bloque de tierra que les impide el paso, ante ello deciden tomar camino de
+                        vuelta a su hogar, pero de repente, uno de los amigos de Manú es atrapado por una red de pesca,
+                        ante la situación Manu y sus demás amigos nadan rápidamente para intentar rescatar a su amigo
+                        atrapado, pero lentamente cada uno de ellos es cazado por los demás humanos, Manu ve cómo se
+                        llevan a cada uno de sus amigos, y ante la desesperación, decide irse con ellos, pensando que al
+                        menos juntos, tendrán más posibilidad para escapar, pero, con el paso de las horas, se queda
+                        dormido, cuando despierta se encuentra encerrado en un estanque, en el cuál permanecerá el resto
+                        de su vida, como atracción principal para el lucro de los humanos. Condenado a una vida llena de
+                        restricciones, tanto en espacio como en comida y obligado a nadar y saltar día y noche, sin
+                        poder volver a ver a sus amigos, o familiares.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-santiago no-mostrar" id="overlaySantiago"></div>
+
+        <!-- Boton delfin -->
+        <button class="btn5 btn-success" onclick="mostrarModal('modalDelfin')"><img src="./Animales/DelfinesR2.png"
+                alt=""></button>
+
+    </div>
+
+    <script>
+        function mostrarModal(elemento) {
+
+            var element = document.getElementById("overlaySantiago");
+            element.classList.remove("no-mostrar");
+
+            var element = document.getElementById(elemento);
+            element.classList.remove("no-mostrar");
+
+        }
+
+
+        function cerrarModales() {
+
+            $(".modal-santiago").addClass('no-mostrar')
+            $(".overlay-santiago").addClass('no-mostrar')
+            $(".modal-oso").addClass('no-mostrar')
+
+        }
+
+        $(function () {
+            $(".overlay-santiago").on('click', function () {
+                cerrarModales();
+            })
+        });
+    </script>
